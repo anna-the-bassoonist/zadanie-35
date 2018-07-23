@@ -1,7 +1,7 @@
 function parametr(n){
 
     
-    if(100 <= n <= 200) {
+    if(100 <= n && n<= 200) {
         console.log('Liczba znajduje się w przedziale');
         return true;
         
@@ -12,4 +12,4 @@ function parametr(n){
         return false;
     }
 }
-console.log(parametr(188));
+parametr(88);
